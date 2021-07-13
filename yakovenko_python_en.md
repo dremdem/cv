@@ -153,6 +153,7 @@ Python Fullstack developer
 - [Open Graph obline parser](https://github.com/dremdem/og_online_parser)
 - [XML parser with multiprocessor usage](https://github.com/dremdem/xml_parse_with_multicore)
 - [Kanban board backend on Serverless framework](https://github.com/dremdem/kanban-board-backend)
+- [Bank statements aggregator](https://github.com/dremdem/sobers)
 
 ## Conribution to open source
 
