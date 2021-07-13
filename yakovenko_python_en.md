@@ -152,6 +152,7 @@ Python Fullstack developer
 - [FastAPI, XML, Microservices](https://github.com/dremdem/fastapi_celery_xml)
 - [Open Graph obline parser](https://github.com/dremdem/og_online_parser)
 - [XML parser with multiprocessor usage](https://github.com/dremdem/xml_parse_with_multicore)
+- [Kanban board backend on Serverless framework](https://github.com/dremdem/kanban-board-backend)
 
 ## Conribution to open source
 
