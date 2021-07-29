@@ -154,6 +154,7 @@ Python Fullstack developer
 - [XML parser with multiprocessor usage](https://github.com/dremdem/xml_parse_with_multicore)
 - [Kanban board backend on Serverless framework](https://github.com/dremdem/kanban-board-backend)
 - [Bank statements aggregator](https://github.com/dremdem/sobers)
+- [Teachers Directory](https://github.com/dremdem/teachers)
 
 ## Conribution to open source
 
