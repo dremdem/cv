@@ -31,9 +31,25 @@
 
 ## Experience
 
+### Zentist
+
+Date Range: 2021.August: now
+
+- URL: https://www.zentist.io/
+- about the company:
+Zentist is a platform that uses advanced technology to simplify and automate insurance revenue cycle management (RCM) for dental practices.
+- skillset:
+Python>=3.8, Flask, MySQL, GraphQL, K8S, Docker
+- my responsibilities:
+  - Developing, testing, supporting and documenting:
+    - GraphQL backend
+    - Database models
+    - Intergration with various APIs
+
+
 ### ParticleOne
 
-Date Range: 2020.September: now
+Date Range: 2020.September: 2021.August
 
 - URL: https://particle.one/
 - about the company:
