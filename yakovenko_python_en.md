@@ -18,6 +18,7 @@
 - Django, Django Rest Framework
 - Flask
 - FastAPI
+- GrapgQL
 
 - Oracle
 - MSSQL 
