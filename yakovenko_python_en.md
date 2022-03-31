@@ -172,10 +172,12 @@ Python Fullstack developer
 - [Kanban board backend on Serverless framework](https://github.com/dremdem/kanban-board-backend)
 - [Bank statements aggregator](https://github.com/dremdem/sobers)
 - [Teachers Directory](https://github.com/dremdem/teachers)
+- [Example of the RestAPI on Flask, SQLAlchemy, Marshmallow and Alembic](https://github.com/dremdem/autods_test_asg)
 
 ## Conribution to open source
 
 - [Backend on Flask and MongoDB for pytest-monitoring](https://github.com/dremdem/pytest-monitor-backend)
+- [Translation to the Russian](https://github.com/dremdem/tldr)
 
 ## Passions 
 
@@ -191,3 +193,7 @@ Python Fullstack developer
 - [![Set sail!](https://img.youtube.com/vi/22We8dOIsmk/0.jpg)](https://www.youtube.com/watch?v=22We8dOIsmk)
 
 ### Roller skating
+
+
+### Table tennis 
+
