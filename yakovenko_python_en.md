@@ -45,7 +45,7 @@ Python>=3.8, Flask, MySQL, GraphQL, K8S, Docker
   - Developing, testing, supporting and documenting:
     - GraphQL backend
     - Database models
-    - Intergration with various APIs
+    - Integration with various APIs
 
 
 ### ParticleOne
@@ -63,7 +63,7 @@ Machine Learning, Python>=3.8, Pandas, Docker, Airflow, Django
   - Developing, testing and documenting: 
     - Python client for RestAPI
     - ETL loaders and sanity checkers
-    - Setup docker containters
+    - Setup docker containers
     - Serve MongoDB 
     - Manage Airflow DAGs
     - Help data science team with refactoring
@@ -110,7 +110,7 @@ Developing backend API, writing code, tests, fixing bugs
 
 ### Orbeliani
 
-Date Range: 2018.Febrary: 2018.July
+Date Range: 2018.February: 2018.July
 
 - URL: https://app.orbeliani.net/home/visitor/
 - about the company:
@@ -129,7 +129,7 @@ There is a bit quantity frontend developers and suddenly, nobody who can support
 
 ### Julius Streicher Anti-Prize
 
-Date Range: 2018.Jan: 2018.Febrary
+Date Range: 2018.Jan: 2018.February
 
 - URL: http://www.antipremia-js.ru
 - about the project:
@@ -145,7 +145,7 @@ Python Fullstack Developer
 
 ### JELT (Joyfully Expanding Learning Together)
 
-Date Range: 2017.Febrary: 2017.August
+Date Range: 2017.February: 2017.August
 
 - URL: http://www.jelt.com
 - about the project:
@@ -167,14 +167,14 @@ Python Fullstack developer
 ## Test Assignments
 
 - [FastAPI, XML, Microservices](https://github.com/dremdem/fastapi_celery_xml)
-- [Open Graph obline parser](https://github.com/dremdem/og_online_parser)
+- [Open Graph online parser](https://github.com/dremdem/og_online_parser)
 - [XML parser with multiprocessor usage](https://github.com/dremdem/xml_parse_with_multicore)
 - [Kanban board backend on Serverless framework](https://github.com/dremdem/kanban-board-backend)
 - [Bank statements aggregator](https://github.com/dremdem/sobers)
 - [Teachers Directory](https://github.com/dremdem/teachers)
 - [Example of the RestAPI on Flask, SQLAlchemy, Marshmallow and Alembic](https://github.com/dremdem/autods_test_asg)
 
-## Conribution to open source
+## Contribution to open source
 
 - [Backend on Flask and MongoDB for pytest-monitoring](https://github.com/dremdem/pytest-monitor-backend)
 - [Translation to the Russian](https://github.com/dremdem/tldr)
