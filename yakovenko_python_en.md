@@ -173,6 +173,7 @@ Python Fullstack developer
 - [Bank statements aggregator](https://github.com/dremdem/sobers)
 - [Teachers Directory](https://github.com/dremdem/teachers)
 - [Example of the RestAPI on Flask, SQLAlchemy, Marshmallow and Alembic](https://github.com/dremdem/autods_test_asg)
+- [Using Kafka as message broker for websites checker](https://github.com/dremdem/site_checker)
 
 ## Contribution to open source
 
