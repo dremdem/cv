@@ -25,6 +25,7 @@
 - PostgreSQL
 - MySQL
 - MongoDB
+- Elastic search
 
 - Linux
 - bash
