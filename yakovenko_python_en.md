@@ -33,9 +33,25 @@
 
 ## Experience
 
+### SXOPE
+
+Date Range: 2022.May: now
+
+- URL: sxope.com
+- about the company:
+SXOPE is a platform for automating doctor's daily tasks
+- skillset:
+Python>=3.10, FastAPI, MySQL, K8S, Docker, Django, Elasticsearch
+- my responsibilities:
+  - Developing, testing, supporting and documenting:
+    - FastAPI enpoints
+    - MySQL, Elasticsearch models
+    - Adjusting Google cloud clusters, nodes and pods
+
+
 ### Zentist
 
-Date Range: 2021.August: now
+Date Range: 2021.August: 2022.May
 
 - URL: https://www.zentist.io/
 - about the company:
