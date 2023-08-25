@@ -23,6 +23,6 @@ jobs:
         if: always()
         continue-on-error: true
         with:
-          ref: dremdem.github.io
+          repository: dremdem/dremdem.github.io
           path: pages
 
