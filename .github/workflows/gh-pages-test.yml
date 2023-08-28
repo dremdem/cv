@@ -23,9 +23,8 @@ jobs:
       - name: Deploy report to Github Pages
         if: always()
         uses: peaceiris/actions-gh-pages@v2
-        with: 
-          external_repository: dremdem/dremdem.github.io
         env:
+          external_repository: dremdem/dremdem.github.io
           PERSONAL_TOKEN: ${{ secrets.GITHUB_TOKEN }}
           PUBLISH_BRANCH: master
           PUBLISH_DIR: pages
