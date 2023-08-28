@@ -26,5 +26,6 @@ jobs:
         env:
           EXTERNAL_REPOSITORY: dremdem/dremdem.github.io
           DEPLOY_KEY: ${{ secrets.ACTIONS_DEPLOY_KEY }}
+          PERSONAL_TOKEN: ${{ secrets.GITHUB_TOKEN }}
           PUBLISH_BRANCH: master
           PUBLISH_DIR: pages
