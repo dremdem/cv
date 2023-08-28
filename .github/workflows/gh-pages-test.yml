@@ -15,20 +15,16 @@ jobs:
 
     # Steps represent a sequence of tasks that will be executed as part of the job
     steps:
-      # Checks-out your repository under $GITHUB_WORKSPACE, so your job can access it
-      - uses: actions/checkout@v3
-      
-      - name: checkout
-        uses: actions/checkout@v2
-        if: always()
-        continue-on-error: true
-        with:
-          repository: dremdem/dremdem.github.io
-          path: pages
+      - name: Add a line to GH pages
+        run: |
+          mkdir pages
+          echo "# Hello World" >> pages/index.html
 
       - name: Deploy report to Github Pages
         if: always()
         uses: peaceiris/actions-gh-pages@v2
+        with: 
+          external_repository: dremdem/dremdem.github.io
         env:
           PERSONAL_TOKEN: ${{ secrets.GITHUB_TOKEN }}
           PUBLISH_BRANCH: master
