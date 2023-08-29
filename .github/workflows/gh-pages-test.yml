@@ -18,7 +18,7 @@ jobs:
       - name: Add a line to GH pages
         run: |
           mkdir pages
-          echo "# Hello World" >> pages/index.html
+          echo "# Hello World123" >> pages/index.html
 
       - name: Deploy report to Github Pages
         if: always()
