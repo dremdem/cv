@@ -33,9 +33,56 @@
 
 ## Experience
 
+### Causify
+
+Date Range: 2022.December : Present
+
+- URL: https://causify.com
+- about the company:
+```
+At Causify, we're on a mission to revolutionize how enterprises make decisions.
+By combining causal AI with intelligent automation, we help organizations move
+beyond correlation to true causation, enabling faster, more accurate, and more
+confident decision-making.
+```
+- skillset:
+  - Python>=3.10,
+  - Pytest
+  - Docker
+  - Docker-Compose
+  - FastAPI
+  - GitHub Actions
+    - test
+    - lint
+    - sanity checks
+    - build, check and release Docker images
+  - AWS ECS
+  - AWS S3
+  - Pandas
+  - NumPy
+  - Dash Applications
+  - SQLAlchemy
+  - code assistance:
+    - Copilot
+    - ChatGPT
+    - Claude Code
+    - Cursor with the MCP agents
+  - frontend (with assistance of AI tools):
+    - ReactJS
+    - TypeScript
+    - next.js
+- my responsibilities:
+  - Developing new features, fixing bugs, testing, documenting and supporting:
+    - collecting data from various sources
+    - transforming data
+    - Dash applications for data visualization
+    - FastAPI endpoints for data processing and model serving
+    - managing Docker images and AWS ECS services
+    - CI/CD pipelines in GitHub Actions
+
 ### SXOPE
 
-Date Range: 2022.May: now
+Date Range: 2022.May: 2022.December
 
 - URL: sxope.com
 - about the company:
