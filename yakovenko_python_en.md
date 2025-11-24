@@ -250,6 +250,7 @@ Python Fullstack developer
 
 ### MX aka dirt biking
 
+- [![MX in Pattaya](https://img.youtube.com/vi/Rxz97nory1g/0.jpg)](https://www.youtube.com/shorts/Rxz97nory1g)
 - [![This is real Dirt!](https://img.youtube.com/vi/5WH17nTdCEc/0.jpg)](https://www.youtube.com/watch?v=5WH17nTdCEc)
 - [![Stand up!!!](https://img.youtube.com/vi/4CdFfLxM370/0.jpg)](https://www.youtube.com/watch?v=4CdFfLxM370)
 
@@ -257,8 +258,15 @@ Python Fullstack developer
 
 - [![Set sail!](https://img.youtube.com/vi/22We8dOIsmk/0.jpg)](https://www.youtube.com/watch?v=22We8dOIsmk)
 
-### Roller skating
+### Windsurfing
 
+- [![Windsurfing in Pattaya](https://img.youtube.com/vi/j0eY2m0DwdU/0.jpg)](https://www.youtube.com/watch?v=j0eY2m0DwdU)
+
+### Snorkeling
+
+- [![Snorkeling in Koh Tao](https://img.youtube.com/vi/U4vWw6jIgnw/0.jpg)](https://youtube.com/shorts/U4vWw6jIgnw)
+
+### Roller skating
 
 ### Table tennis 
 
