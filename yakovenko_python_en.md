@@ -91,7 +91,7 @@ SXOPE is a platform for automating doctor's daily tasks
 Python>=3.10, FastAPI, MySQL, K8S, Docker, Django, Elasticsearch
 - my responsibilities:
   - Developing, testing, supporting and documenting:
-    - FastAPI enpoints
+    - FastAPI endpoints
     - MySQL, Elasticsearch models
     - Adjusting Google cloud clusters, nodes and pods
 
