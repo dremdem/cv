@@ -1,0 +1,29 @@
+Hello,
+
+My name is Vlad Yakovenko, and I’m writing to express my interest in a
+backend/Python developer position at your company.
+With over 8 years of professional experience,
+I have built scalable backend systems, RESTful APIs, data pipelines, and
+cloud-native services especially using Python, Django / FastAPI, AWS, Docker,
+and CI/CD practices.
+
+During my career I have:  
+- Designed and implemented ETL pipelines and data processing workflows;  
+- Developed web applications with real-time updates (Dash / Flask);  
+- Managed deployments on cloud infrastructure (AWS ECS)
+- Worked remotely in asynchronous teams, using tools such as Slack, GitHub, Jira,
+  and more to maintain productivity and clear communication.  
+
+I currently live in Thailand (UTC+7), and have been working remotely for many
+years — I’m comfortable collaborating across time zones and using asynchronous
+workflows effectively. I’m actively looking for a role where I can contribute my
+backend, data, and cloud experience to build robust and maintainable systems.
+
+I believe my skills and background make me a strong match for a backend
+engineering role in a remote-first or distributed team. I would welcome the
+opportunity to discuss how I can contribute to your projects.
+
+Thank you for your time and consideration.  
+
+Best regards, 
+Vlad.
