@@ -6,7 +6,7 @@
 
 - email: dremdem@gmail.com
 - telegram: dremdem
-- linkedin: https://www.linkedin.com/in/vladimiryakovenko-7b666686/
+- linkedin: https://www.linkedin.com/in/vladimir-yakovenko-7b666686
 - personal profile: https://www.dremdem.ru
 
 ## Skills 
