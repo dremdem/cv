@@ -1,16 +1,17 @@
 % Custom LaTeX template for ATS-friendly resume PDF
-% Uses Liberation Sans font (Arial equivalent)
-% Pandoc template for XeLaTeX
+% Uses Latin Modern Sans - included in pandoc/extra minimal TeX Live
+% Works reliably with pdflatex without external fonts
 
 \documentclass[11pt,a4paper]{article}
 
 % Page geometry - 1 inch margins
 \usepackage[margin=1in]{geometry}
 
-% Font configuration - Liberation Sans (ATS-friendly, Arial-like)
-\usepackage{fontspec}
-\setmainfont{Liberation Sans}
-\setsansfont{Liberation Sans}
+% Font configuration - Latin Modern Sans (clean, modern, ATS-friendly)
+% lmodern is explicitly included in pandoc/extra Docker image
+\usepackage[T1]{fontenc}
+\usepackage{lmodern}
+\renewcommand{\familydefault}{\sfdefault}
 
 % Remove paragraph indentation
 \setlength{\parindent}{0pt}
