@@ -139,6 +139,10 @@ Orbeliani is a Georgian social initiative crowdfunding platform.
 - [Serverless Kanban Board Backend](https://github.com/dremdem/kanban-board-backend) - AWS Lambda-based API
 - [REST API Example](https://github.com/dremdem/autods_test_asg) - Flask, SQLAlchemy, Marshmallow, Alembic
 
+**Personal Projects:**
+- [Stupid Chat Bot](https://stupidbot.dremdem.ru) | [GitHub](https://github.com/dremdem/stupid_chat_bot) - AI-powered Telegram chatbot with web interface
+- [CV Profile](https://dremdem.ru) | [GitHub](https://github.com/dremdem/cv_profile) - Personal portfolio site with automated CI/CD deployment pipeline (GitHub Actions, Docker, VPS)
+
 **Open Source Contributions:**
 - [pytest-monitor-backend](https://github.com/dremdem/pytest-monitor-backend) - Flask/MongoDB backend for pytest monitoring
 - [tldr](https://github.com/dremdem/tldr) - Russian translation contributions
@@ -164,4 +168,5 @@ Self-taught programmer with continuous professional development through:
 ## Additional Information
 
 - Available for full-time remote positions
+- Able to work in any time zone
 - Experienced in async collaboration across UTC-8 to UTC+8 time zones
