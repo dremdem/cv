@@ -37,7 +37,6 @@ jobs:
             -o ${{ env.OUTPUT_FILE }}
             --pdf-engine=xelatex
             --template=templates/resume.tex
-            --highlight-style=tango
 
       - name: Upload PDF artifact
         uses: actions/upload-artifact@v4
@@ -82,7 +81,7 @@ jobs:
           ### Generated with Pandoc
           - Engine: XeLaTeX
           - Template: Custom ATS-friendly (templates/resume.tex)
-          - Font: Liberation Sans
+          - Font: TeX Gyre Heros (Helvetica)
           - Margins: 1 inch
 
           ---
