@@ -36,10 +36,7 @@ jobs:
             ${{ env.INPUT_FILE }}
             -o ${{ env.OUTPUT_FILE }}
             --pdf-engine=xelatex
-            -V geometry:margin=1in
-            -V fontsize=11pt
-            -V linkcolor=blue
-            -V urlcolor=blue
+            --template=templates/resume.tex
             --highlight-style=tango
 
       - name: Upload PDF artifact
@@ -84,8 +81,9 @@ jobs:
 
           ### Generated with Pandoc
           - Engine: XeLaTeX
+          - Template: Custom ATS-friendly (templates/resume.tex)
+          - Font: Liberation Sans
           - Margins: 1 inch
-          - Font size: 11pt
 
           ---
           *This PR was automatically created by the MD to PDF workflow.*" \

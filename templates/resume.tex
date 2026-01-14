@@ -1,0 +1,83 @@
+% Custom LaTeX template for ATS-friendly resume PDF
+% Uses Liberation Sans font (Arial equivalent)
+% Pandoc template for XeLaTeX
+
+\documentclass[11pt,a4paper]{article}
+
+% Page geometry - 1 inch margins
+\usepackage[margin=1in]{geometry}
+
+% Font configuration - Liberation Sans (ATS-friendly, Arial-like)
+\usepackage{fontspec}
+\setmainfont{Liberation Sans}
+\setsansfont{Liberation Sans}
+
+% Remove paragraph indentation
+\setlength{\parindent}{0pt}
+\setlength{\parskip}{0.5em}
+
+% Section header styling - bold with line below
+\usepackage{titlesec}
+\titleformat{\section}
+  {\normalfont\Large\bfseries}
+  {}
+  {0pt}
+  {}
+  [\titlerule]
+\titlespacing*{\section}{0pt}{1.5em}{0.75em}
+
+\titleformat{\subsection}
+  {\normalfont\large\bfseries}
+  {}
+  {0pt}
+  {}
+\titlespacing*{\subsection}{0pt}{1em}{0.5em}
+
+\titleformat{\subsubsection}
+  {\normalfont\normalsize\bfseries}
+  {}
+  {0pt}
+  {}
+\titlespacing*{\subsubsection}{0pt}{0.75em}{0.25em}
+
+% Hyperlink configuration
+\usepackage{hyperref}
+\hypersetup{
+  colorlinks=true,
+  linkcolor=blue,
+  urlcolor=blue,
+  pdfborder={0 0 0}
+}
+
+% List styling - tighter spacing
+\usepackage{enumitem}
+\setlist[itemize]{nosep, leftmargin=1.5em}
+\setlist[enumerate]{nosep, leftmargin=1.5em}
+
+% Disable page numbers for single-page resume (optional)
+% \pagenumbering{gobble}
+
+% Better typography
+\usepackage{microtype}
+
+% For tight lists from Pandoc
+\providecommand{\tightlist}{%
+  \setlength{\itemsep}{0pt}\setlength{\parskip}{0pt}}
+
+% Begin document
+\begin{document}
+
+$if(title)$
+{\huge\bfseries $title$}
+$endif$
+
+$if(subtitle)$
+\vspace{0.25em}
+{\Large $subtitle$}
+$endif$
+
+\vspace{1em}
+
+$body$
+
+\end{document}
