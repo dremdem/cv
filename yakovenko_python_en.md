@@ -172,4 +172,3 @@ Self-taught programmer with continuous professional development through:
 
 - Available for full-time remote positions
 - Able to work in any time zone
-- Experienced in async collaboration across UTC-8 to UTC+8 time zones
