@@ -1,16 +1,16 @@
 % Custom LaTeX template for ATS-friendly resume PDF
-% Uses Helvet package (Helvetica clone) - part of standard LaTeX
-% Works reliably with pdflatex/xelatex without external fonts
+% Uses Latin Modern Sans - included in pandoc/extra minimal TeX Live
+% Works reliably with pdflatex without external fonts
 
 \documentclass[11pt,a4paper]{article}
 
 % Page geometry - 1 inch margins
 \usepackage[margin=1in]{geometry}
 
-% Font configuration - Helvetica clone (ATS-friendly sans-serif)
-% helvet is part of psnfss bundle, included in all LaTeX distributions
+% Font configuration - Latin Modern Sans (clean, modern, ATS-friendly)
+% lmodern is explicitly included in pandoc/extra Docker image
 \usepackage[T1]{fontenc}
-\usepackage[scaled=0.92]{helvet}
+\usepackage{lmodern}
 \renewcommand{\familydefault}{\sfdefault}
 
 % Remove paragraph indentation

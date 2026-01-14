@@ -81,7 +81,7 @@ jobs:
           ### Generated with Pandoc
           - Engine: pdfLaTeX
           - Template: Custom ATS-friendly (templates/resume.tex)
-          - Font: Helvetica (helvet package)
+          - Font: Latin Modern Sans
           - Margins: 1 inch
 
           ---
