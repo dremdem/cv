@@ -1,0 +1,92 @@
+name: Convert Markdown to PDF
+
+on:
+  push:
+    branches:
+      - master
+    paths:
+      - '*.md'
+  workflow_dispatch:
+    inputs:
+      input_file:
+        description: 'Input Markdown file'
+        required: false
+        default: 'yakovenko_python_en.md'
+      output_file:
+        description: 'Output PDF file'
+        required: false
+        default: 'yakovenko_python_en_latest.pdf'
+
+jobs:
+  convert-and-publish:
+    runs-on: ubuntu-latest
+
+    env:
+      INPUT_FILE: ${{ github.event.inputs.input_file || 'yakovenko_python_en.md' }}
+      OUTPUT_FILE: ${{ github.event.inputs.output_file || 'yakovenko_python_en_latest.pdf' }}
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Convert Markdown to PDF
+        uses: docker://pandoc/extra:latest
+        with:
+          args: >-
+            ${{ env.INPUT_FILE }}
+            -o ${{ env.OUTPUT_FILE }}
+            --pdf-engine=xelatex
+            -V geometry:margin=1in
+            -V fontsize=11pt
+            -V linkcolor=blue
+            -V urlcolor=blue
+            --highlight-style=tango
+
+      - name: Upload PDF artifact
+        uses: actions/upload-artifact@v4
+        with:
+          name: resume-pdf
+          path: ${{ env.OUTPUT_FILE }}
+          retention-days: 90
+
+      - name: Generate branch name
+        id: branch
+        run: |
+          BRANCH_NAME="pdf-update-$(date +'%Y%m%d-%H%M%S')"
+          echo "name=$BRANCH_NAME" >> $GITHUB_OUTPUT
+
+      - name: Create branch and commit PDF
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git checkout -b ${{ steps.branch.outputs.name }}
+          git add ${{ env.OUTPUT_FILE }}
+          git commit -m "Update PDF: ${{ env.OUTPUT_FILE }}
+
+          Generated from ${{ env.INPUT_FILE }} via Pandoc
+
+          Triggered by: ${{ github.event_name }}
+          Commit: ${{ github.sha }}"
+          git push origin ${{ steps.branch.outputs.name }}
+
+      - name: Create Pull Request
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          gh pr create \
+            --title "Update PDF: ${{ env.OUTPUT_FILE }}" \
+            --body "## Automated PDF Generation
+
+          **Source:** \`${{ env.INPUT_FILE }}\`
+          **Output:** \`${{ env.OUTPUT_FILE }}\`
+          **Trigger:** ${{ github.event_name }}
+          **Source commit:** ${{ github.sha }}
+
+          ### Generated with Pandoc
+          - Engine: XeLaTeX
+          - Margins: 1 inch
+          - Font size: 11pt
+
+          ---
+          *This PR was automatically created by the MD to PDF workflow.*" \
+            --reviewer dremdem
