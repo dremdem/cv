@@ -35,7 +35,7 @@ jobs:
           args: >-
             ${{ env.INPUT_FILE }}
             -o ${{ env.OUTPUT_FILE }}
-            --pdf-engine=xelatex
+            --pdf-engine=pdflatex
             --template=templates/resume.tex
 
       - name: Upload PDF artifact
@@ -79,9 +79,9 @@ jobs:
           **Source commit:** ${{ github.sha }}
 
           ### Generated with Pandoc
-          - Engine: XeLaTeX
+          - Engine: pdfLaTeX
           - Template: Custom ATS-friendly (templates/resume.tex)
-          - Font: TeX Gyre Heros (Helvetica)
+          - Font: Helvetica (helvet package)
           - Margins: 1 inch
 
           ---

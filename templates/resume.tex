@@ -1,17 +1,17 @@
 % Custom LaTeX template for ATS-friendly resume PDF
-% Uses TeX Gyre Heros font (Helvetica equivalent)
-% Pandoc template for XeLaTeX
+% Uses Helvet package (Helvetica clone) - part of standard LaTeX
+% Works reliably with pdflatex/xelatex without external fonts
 
 \documentclass[11pt,a4paper]{article}
 
 % Page geometry - 1 inch margins
 \usepackage[margin=1in]{geometry}
 
-% Font configuration - TeX Gyre Heros (ATS-friendly, Helvetica-like)
-% Available in pandoc/extra Docker image
-\usepackage{fontspec}
-\setmainfont{TeX Gyre Heros}
-\setsansfont{TeX Gyre Heros}
+% Font configuration - Helvetica clone (ATS-friendly sans-serif)
+% helvet is part of psnfss bundle, included in all LaTeX distributions
+\usepackage[T1]{fontenc}
+\usepackage[scaled=0.92]{helvet}
+\renewcommand{\familydefault}{\sfdefault}
 
 % Remove paragraph indentation
 \setlength{\parindent}{0pt}
