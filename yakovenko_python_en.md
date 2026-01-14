@@ -41,7 +41,7 @@ Senior Python Backend Developer with 8+ years of experience building scalable we
 
 Causify is an enterprise AI platform combining causal AI with intelligent automation for data-driven decision-making.
 
-- Developed and maintained FastAPI microservices processing 10,000+ daily requests for data ingestion and model serving
+- Developed and maintained FastAPI microservices processing frequent daily requests for data ingestion and model serving
 - Designed and implemented ETL pipelines using Pandas and NumPy, reducing data processing time by 35%
 - Built interactive Dash applications for data visualization, enabling stakeholders to analyze complex datasets in real-time
 - Architected CI/CD pipelines in GitHub Actions, achieving 95% test coverage and reducing deployment time by 50%
@@ -49,17 +49,17 @@ Causify is an enterprise AI platform combining causal AI with intelligent automa
 - Collaborated with cross-functional teams using async communication (Slack, GitHub) across multiple time zones
 - Contributed to frontend features using React, TypeScript, and Next.js with AI-assisted development
 
-**Technologies:** Python 3.10+, FastAPI, Pytest, Docker, AWS ECS/S3, Pandas, NumPy, SQLAlchemy, GitHub Actions
+**Technologies:** Python 3.10+, FastAPI, Pytest, Dash Apps, Docker, AWS ECS/S3/Lambda, Pandas, NumPy, SQLAlchemy, GitHub Actions
 
 ### Python Backend Developer | SXOPE
 **May 2022 - December 2022** | Remote
 
 SXOPE is a healthcare platform automating physician daily workflows.
 
-- Developed FastAPI endpoints serving 5,000+ healthcare providers with sub-100ms response times
+- Developed FastAPI endpoints serving 100+ healthcare providers with sub-100ms response times
 - Optimized Elasticsearch queries, improving search performance by 40% for medical record retrieval
-- Designed and maintained MySQL database schemas handling 1M+ patient records
-- Configured and managed Google Cloud Kubernetes clusters, ensuring 99.9% uptime
+- Designed and maintained MySQL database schemas handling 10000+ patient records
+- Configured and managed Google Cloud Kubernetes clusters
 
 **Technologies:** Python 3.10+, FastAPI, MySQL, Elasticsearch, Kubernetes, Docker, Django
 
@@ -68,7 +68,7 @@ SXOPE is a healthcare platform automating physician daily workflows.
 
 Zentist automates insurance revenue cycle management for dental practices.
 
-- Built GraphQL backend APIs processing 50,000+ insurance claims monthly
+- Built GraphQL backend APIs processing 10000+ insurance claims monthly
 - Developed integrations with 15+ third-party insurance APIs, streamlining claim submissions
 - Designed database models optimizing query performance for complex billing workflows
 - Wrote comprehensive test suites achieving 85% code coverage
@@ -82,8 +82,8 @@ ParticleOne provides machine learning-powered financial market data analysis.
 
 - Developed Python REST API client library used by 20+ institutional clients
 - Built ETL loaders and data validation pipelines processing 100GB+ daily financial data
-- Managed Airflow DAGs orchestrating 50+ scheduled data processing jobs
-- Collaborated with data science team to refactor ML model training pipelines, reducing training time by 25%
+- Managed Airflow DAGs orchestrating 30+ scheduled data processing jobs
+- Collaborated with data science team to refactor ML model training pipelines
 - Administered MongoDB databases and Docker containerized services
 
 **Technologies:** Python 3.8+, Django, Pandas, Airflow, MongoDB, Docker
@@ -94,7 +94,7 @@ ParticleOne provides machine learning-powered financial market data analysis.
 AutoCruitment matches patients with clinical trials through an automated platform.
 
 - Developed OpenAPI-compliant REST endpoints for patient-trial matching algorithms
-- Implemented database models handling 100,000+ patient profiles across PostgreSQL and MongoDB
+- Implemented database models handling 10000+ patient profiles across PostgreSQL and MongoDB
 - Wrote unit and integration tests ensuring reliable API functionality
 
 **Technologies:** Python, Django, OpenAPI, PostgreSQL, MongoDB
@@ -104,7 +104,7 @@ AutoCruitment matches patients with clinical trials through an automated platfor
 
 Plantix is a mobile crop advisory app diagnosing plant diseases for farmers worldwide.
 
-- Built Flask backend APIs supporting 1M+ mobile app users globally
+- Built Flask backend APIs supporting 500000+ mobile app users globally
 - Developed RESTful endpoints for plant disease diagnosis and treatment recommendations
 - Integrated machine learning model predictions into production API responses
 
@@ -165,4 +165,3 @@ Self-taught programmer with continuous professional development through:
 
 - Available for full-time remote positions
 - Experienced in async collaboration across UTC-8 to UTC+8 time zones
-- Upwork Profile: https://www.upwork.com/o/profiles/users/_~011110ba92bf30ec2d/
