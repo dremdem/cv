@@ -3,41 +3,35 @@
 
 ## Contact
 
-- Email: dremdem@gmail.com
-- Telegram: dremdem
-- LinkedIn: https://www.linkedin.com/in/vladimir-yakovenko-7b666686
-- Portfolio: https://www.dremdem.ru
+Email: dremdem@gmail.com
+Telegram: dremdem
+LinkedIn: https://www.linkedin.com/in/vladimir-yakovenko-7b666686
+Portfolio: https://www.dremdem.ru
 
----
-
-## Professional Summary
+## Summary
 
 Senior Python Backend Developer with 8+ years of experience building scalable web applications, REST APIs, and data pipelines. Proven track record of improving system performance by 30-40% through optimization of database queries and API architecture. Extensive experience in remote-first environments with asynchronous collaboration across global teams. Specialized in FastAPI, Django, and cloud infrastructure (AWS, GCP), with strong expertise in ETL processes, CI/CD pipelines, and containerized deployments.
 
----
+## Skills
 
-## Technical Skills
+Languages: Python, SQL, JavaScript, TypeScript, Bash
 
-**Languages:** Python, SQL, JavaScript, TypeScript, Bash
+Frameworks: FastAPI, Django, Django REST Framework, Flask, GraphQL, React, Next.js
 
-**Frameworks:** FastAPI, Django, Django REST Framework, Flask, GraphQL, React, Next.js
+Databases: PostgreSQL, MySQL, MongoDB, Elasticsearch, Oracle, MSSQL
 
-**Databases:** PostgreSQL, MySQL, MongoDB, Elasticsearch, Oracle, MSSQL
+Cloud and Infrastructure: AWS (ECS, S3), Google Cloud Platform (GKE), Kubernetes, Docker, Docker Compose
 
-**Cloud & Infrastructure:** AWS (ECS, S3), Google Cloud Platform (GKE), Kubernetes, Docker, Docker Compose
+Data and ETL: Pandas, NumPy, Airflow, SQLAlchemy, Data Pipelines
 
-**Data & ETL:** Pandas, NumPy, Airflow, SQLAlchemy, Data Pipelines
+DevOps and CI/CD: GitHub Actions, Docker Registry, Automated Testing, Linting, Code Quality Gates
 
-**DevOps & CI/CD:** GitHub Actions, Docker Registry, Automated Testing, Linting, Code Quality Gates
+Collaboration Tools: Git, GitHub, Jira, Slack, Zoom
 
-**Collaboration Tools:** Git, GitHub, Jira, Slack, Zoom
+## Experience
 
----
-
-## Professional Experience
-
-### Senior Python Developer | Causify
-**December 2022 - Present** | Remote
+### Senior Python Developer, Causify
+December 2022 - Present, Remote
 
 Causify is an enterprise AI platform combining causal AI with intelligent automation for data-driven decision-making.
 
@@ -49,10 +43,10 @@ Causify is an enterprise AI platform combining causal AI with intelligent automa
 - Collaborated with cross-functional teams using async communication (Slack, GitHub) across multiple time zones
 - Contributed to frontend features using React, TypeScript, and Next.js with AI-assisted development
 
-**Technologies:** Python 3.10+, FastAPI, Pytest, Dash Apps, Docker, AWS ECS/S3/Lambda, Pandas, NumPy, SQLAlchemy, GitHub Actions
+Technologies: Python 3.10+, FastAPI, Pytest, Dash Apps, Docker, AWS ECS/S3/Lambda, Pandas, NumPy, SQLAlchemy, GitHub Actions
 
-### Python Backend Developer | SXOPE
-**May 2022 - December 2022** | Remote
+### Python Backend Developer, SXOPE
+May 2022 - December 2022, Remote
 
 SXOPE is a healthcare platform automating physician daily workflows.
 
@@ -61,10 +55,10 @@ SXOPE is a healthcare platform automating physician daily workflows.
 - Designed and maintained MySQL database schemas handling 10000+ patient records
 - Configured and managed Google Cloud Kubernetes clusters
 
-**Technologies:** Python 3.10+, FastAPI, MySQL, Elasticsearch, Kubernetes, Docker, Django
+Technologies: Python 3.10+, FastAPI, MySQL, Elasticsearch, Kubernetes, Docker, Django
 
-### Python Backend Developer | Zentist
-**August 2021 - May 2022** | Remote
+### Python Backend Developer, Zentist
+August 2021 - May 2022, Remote
 
 Zentist automates insurance revenue cycle management for dental practices.
 
@@ -73,10 +67,10 @@ Zentist automates insurance revenue cycle management for dental practices.
 - Designed database models optimizing query performance for complex billing workflows
 - Wrote comprehensive test suites achieving 85% code coverage
 
-**Technologies:** Python 3.8+, Flask, GraphQL, MySQL, Kubernetes, Docker
+Technologies: Python 3.8+, Flask, GraphQL, MySQL, Kubernetes, Docker
 
-### Python Developer | ParticleOne
-**September 2020 - August 2021** | Remote
+### Python Developer, ParticleOne
+September 2020 - August 2021, Remote
 
 ParticleOne provides machine learning-powered financial market data analysis.
 
@@ -86,10 +80,10 @@ ParticleOne provides machine learning-powered financial market data analysis.
 - Collaborated with data science team to refactor ML model training pipelines
 - Administered MongoDB databases and Docker containerized services
 
-**Technologies:** Python 3.8+, Django, Pandas, Airflow, MongoDB, Docker
+Technologies: Python 3.8+, Django, Pandas, Airflow, MongoDB, Docker
 
-### Python Backend Developer | AutoCruitment
-**December 2018 - March 2019** | Remote
+### Python Backend Developer, AutoCruitment
+December 2018 - March 2019, Remote
 
 AutoCruitment matches patients with clinical trials through an automated platform.
 
@@ -97,10 +91,10 @@ AutoCruitment matches patients with clinical trials through an automated platfor
 - Implemented database models handling 10000+ patient profiles across PostgreSQL and MongoDB
 - Wrote unit and integration tests ensuring reliable API functionality
 
-**Technologies:** Python, Django, OpenAPI, PostgreSQL, MongoDB
+Technologies: Python, Django, OpenAPI, PostgreSQL, MongoDB
 
-### Python Backend Developer | PEAT Technology (Plantix)
-**June 2018 - October 2018** | Remote
+### Python Backend Developer, PEAT Technology (Plantix)
+June 2018 - October 2018, Remote
 
 Plantix is a mobile crop advisory app diagnosing plant diseases for farmers worldwide.
 
@@ -108,10 +102,10 @@ Plantix is a mobile crop advisory app diagnosing plant diseases for farmers worl
 - Developed RESTful endpoints for plant disease diagnosis and treatment recommendations
 - Integrated machine learning model predictions into production API responses
 
-**Technologies:** Python, Flask, OpenAPI, PostgreSQL, MongoDB
+Technologies: Python, Flask, OpenAPI, PostgreSQL, MongoDB
 
-### Python Full-Stack Developer | Orbeliani
-**February 2018 - July 2018** | Remote
+### Python Full-Stack Developer, Orbeliani
+February 2018 - July 2018, Remote
 
 Orbeliani is a Georgian social initiative crowdfunding platform.
 
@@ -120,34 +114,30 @@ Orbeliani is a Georgian social initiative crowdfunding platform.
 - Managed DevOps tasks including deployment and server maintenance
 - Delivered 20+ bug fixes and feature enhancements
 
-**Technologies:** Python 3.5, Django 1.11, PostgreSQL, HTML5, CSS3, jQuery
+Technologies: Python 3.5, Django 1.11, PostgreSQL, HTML5, CSS3, jQuery
 
-### Python Developer | Earlier Projects
-**2017 - 2018**
+### Python Developer, Earlier Projects
+2017 - 2018
 
 - Developed full-stack web applications using Django, Flask, and various databases
 - Built web scrapers and data collection pipelines
 - Created voting platforms and community engagement tools
 
----
+## Projects
 
-## Open Source & Projects
+Test Assignments and Code Samples:
+- FastAPI Microservices with Celery: https://github.com/dremdem/fastapi_celery_xml
+- Kafka Message Broker for Site Monitoring: https://github.com/dremdem/site_checker
+- Serverless Kanban Board Backend: https://github.com/dremdem/kanban-board-backend
+- REST API Example (Flask, SQLAlchemy, Marshmallow, Alembic): https://github.com/dremdem/autods_test_asg
 
-**Test Assignments & Code Samples:**
-- [FastAPI Microservices with Celery](https://github.com/dremdem/fastapi_celery_xml) - XML processing microservice architecture
-- [Kafka Message Broker for Site Monitoring](https://github.com/dremdem/site_checker) - Distributed website health checker
-- [Serverless Kanban Board Backend](https://github.com/dremdem/kanban-board-backend) - AWS Lambda-based API
-- [REST API Example](https://github.com/dremdem/autods_test_asg) - Flask, SQLAlchemy, Marshmallow, Alembic
+Personal Projects:
+- Stupid Chat Bot (AI Telegram chatbot): https://stupidbot.dremdem.ru, https://github.com/dremdem/stupid_chat_bot
+- CV Profile (Portfolio with CI/CD pipeline): https://dremdem.ru, https://github.com/dremdem/cv_profile
 
-**Personal Projects:**
-- [Stupid Chat Bot](https://stupidbot.dremdem.ru) | [GitHub](https://github.com/dremdem/stupid_chat_bot) - AI-powered Telegram chatbot with web interface
-- [CV Profile](https://dremdem.ru) | [GitHub](https://github.com/dremdem/cv_profile) - Personal portfolio site with automated CI/CD deployment pipeline (GitHub Actions, Docker, VPS)
-
-**Open Source Contributions:**
-- [pytest-monitor-backend](https://github.com/dremdem/pytest-monitor-backend) - Flask/MongoDB backend for pytest monitoring
-- [tldr](https://github.com/dremdem/tldr) - Russian translation contributions
-
----
+Open Source Contributions:
+- pytest-monitor-backend (Flask/MongoDB): https://github.com/dremdem/pytest-monitor-backend
+- tldr (Russian translation): https://github.com/dremdem/tldr
 
 ## Education
 
@@ -156,14 +146,10 @@ Self-taught programmer with continuous professional development through:
 - Technical documentation and official framework guides
 - Open source contribution and code review participation
 
----
-
 ## Languages
 
-- Russian: Native
-- English: Professional working proficiency (B2+)
-
----
+Russian: Native
+English: Professional working proficiency (B2+)
 
 ## Additional Information
 
