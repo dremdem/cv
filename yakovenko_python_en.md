@@ -7,6 +7,7 @@
 - Telegram: dremdem
 - LinkedIn: https://www.linkedin.com/in/vladimir-yakovenko-7b666686
 - Portfolio: https://www.dremdem.ru
+- Location: Thailand
 
 ---
 
