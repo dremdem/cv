@@ -1,5 +1,5 @@
 # VLADIMIR YAKOVENKO
-## Senior Python Backend Developer
+## Senior Python Backend Engineer · data pipelines & system integrations
 
 ## Contact
 
@@ -7,31 +7,37 @@
 - Telegram: dremdem
 - LinkedIn: https://www.linkedin.com/in/vladimir-yakovenko-7b666686
 - Portfolio: https://www.dremdem.ru
-- Location: Thailand
+- Languages: Russian (native), English (B2, daily work with English-speaking teams since 2018)
+- Location: Thailand (GMT+7), fully remote, any time zone (EU or US hours overlap)
+- Contract: independent contractor; invoicing or EOR
 
 ---
 
 ## Professional Summary
 
-Senior Python Backend Developer with 8+ years of experience building scalable web applications, REST APIs, and data pipelines. Proven track record of improving system performance by 30-40% through optimization of database queries and API architecture. Extensive experience in remote-first environments with asynchronous collaboration across global teams. Specialized in FastAPI, Django, and cloud infrastructure (AWS, GCP), with strong expertise in ETL processes, CI/CD pipelines, and containerized deployments.
+Python backend engineer with 8+ years on remote product teams (Flask, Django, FastAPI), after 15 years of enterprise ERP consulting (Oracle E-Business Suite) for mining, energy and logistics companies. I build APIs, data pipelines (Airflow, pandas) and integrations with third-party systems, and keep the delivery side healthy: Docker images, CI on GitHub Actions, dependency upgrades. I am comfortable on the business side too: requirements, specifications, user training.
 
 ---
 
 ## Technical Skills
 
-**Languages:** Python, SQL, JavaScript, TypeScript, Bash
+**Languages:** Python, SQL, PL/SQL, Bash; TypeScript and JavaScript (working knowledge)
 
-**Frameworks:** FastAPI, Django, Django REST Framework, Flask, GraphQL, React, Next.js
+**Backend:** Flask, Django, Django REST Framework, FastAPI, SQLAlchemy, GraphQL, REST APIs, OpenAPI, Pydantic
 
-**Databases:** PostgreSQL, MySQL, MongoDB, Elasticsearch, Oracle, MSSQL
+**Data & ETL:** pandas, NumPy, PyArrow, Airflow, Dash, data validation, Jupyter-to-production
 
-**Cloud & Infrastructure:** AWS (ECS, S3), Google Cloud Platform (GKE), Kubernetes, Docker, Docker Compose
+**Databases & search:** MySQL, PostgreSQL, MS SQL Server, MongoDB, Oracle, Elasticsearch (basic)
 
-**Data & ETL:** Pandas, NumPy, Airflow, SQLAlchemy, Data Pipelines
+**Cloud & infrastructure:** AWS (ECS Fargate, Lambda, S3, ECR), Google Cloud (GKE), Docker, Docker Compose, multi-stage images, Kubernetes (basic), Terraform
 
-**DevOps & CI/CD:** GitHub Actions, Docker Registry, Automated Testing, Linting, Code Quality Gates
+**Queues:** Celery, Redis (light)
 
-**Collaboration Tools:** Git, GitHub, Jira, Slack, Zoom
+**Build, test & CI/CD:** GitHub Actions, pytest, Poetry, uv, dependency management, container registries (GHCR, Docker Hub, ECR)
+
+**Frontend:** React, Next.js (working knowledge, AI-assisted)
+
+**Tools:** Git, GitHub, Jira, Linux
 
 ---
 
@@ -40,136 +46,88 @@ Senior Python Backend Developer with 8+ years of experience building scalable we
 ### Senior Python Developer | Causify
 **December 2022 - Present** | Remote
 
-Causify is an enterprise AI platform combining causal AI with intelligent automation for data-driven decision-making.
+Causify (formerly ParticleOne; I rejoined after working there in 2020–2021) builds a causal-AI platform for predictive analytics on market data. I worked on the data, application and infrastructure side, supporting the quant team.
 
-- Developed and maintained FastAPI microservices processing frequent daily requests for data ingestion and model serving
-- Designed and implemented ETL pipelines using Pandas and NumPy, reducing data processing time by 35%
-- Built interactive Dash applications for data visualization, enabling stakeholders to analyze complex datasets in real-time
-- Architected CI/CD pipelines in GitHub Actions, achieving 95% test coverage and reducing deployment time by 50%
-- Managed AWS ECS containerized services and S3 data storage infrastructure
-- Collaborated with cross-functional teams using async communication (Slack, GitHub) across multiple time zones
-- Contributed to frontend features using React, TypeScript, and Next.js with AI-assisted development
+- Built a dependency-update pipeline for Docker images across 4–5 repositories, including a monorepo with several images: GitHub Actions rebuilds the multi-stage images with pinned Python dependencies (Poetry, later uv), runs the full test suite against them, and opens a PR with the updated `pyproject.toml` for an admin to approve; approved images are pushed to GitHub Container Registry, Docker Hub and AWS ECR. This turned rare, painful upgrades (dependency conflicts, behaviour changes in pandas, NumPy, PyArrow) into a routine semi-automated release
+- Maintained and optimized Airflow DAGs that collect and clean data from crypto exchanges, stock markets and commodity prices and launch the quant team's compute jobs
+- Turned research Jupyter notebooks into production Dash applications that stakeholders could use without running code
+- Built a modular platform on top of these apps (React, TypeScript, Next.js, largely AI-assisted): each app became a module that could be enabled per customer, so customers could assemble their own application, with a subscription model in view
+- Ran services on AWS (Fargate, Lambda, S3) in Docker, with CI on GitHub Actions and pytest
 
-**Technologies:** Python 3.10+, FastAPI, Pytest, Dash Apps, Docker, AWS ECS/S3/Lambda, Pandas, NumPy, SQLAlchemy, GitHub Actions
+**Technologies:** Python, Flask, FastAPI, Dash, Airflow, pandas, NumPy, PyArrow, pytest, Poetry, uv, Docker, GitHub Actions, AWS (Fargate, Lambda, S3, ECR), React, TypeScript, Next.js
 
 ### Python Backend Developer | SXOPE
 **May 2022 - December 2022** | Remote
 
-SXOPE is a healthcare platform automating physician daily workflows.
+SXOPE is a healthcare platform automating physicians' daily workflows.
 
-- Developed FastAPI endpoints serving 100+ healthcare providers with sub-100ms response times
-- Optimized Elasticsearch queries, improving search performance by 40% for medical record retrieval
-- Designed and maintained MySQL database schemas handling 10000+ patient records
-- Configured and managed Google Cloud Kubernetes clusters
+- Developed Django APIs for the platform's medical document flows (prescriptions, insurance documents)
+- Implemented search on Elasticsearch: indexed the data, wrote queries and fixed slow ones
+- Worked with the MySQL schema behind these features
+- Managed workloads on Google Kubernetes Engine (deploying and restarting pods) and added Terraform for the GCP access permissions the services needed
 
-**Technologies:** Python 3.10+, FastAPI, MySQL, Elasticsearch, Kubernetes, Docker, Django
+**Technologies:** Python, Django, MySQL, Elasticsearch, Docker, Kubernetes (GKE), Google Cloud, Terraform
 
 ### Python Backend Developer | Zentist
 **August 2021 - May 2022** | Remote
 
 Zentist automates insurance revenue cycle management for dental practices.
 
-- Built GraphQL backend APIs processing 10000+ insurance claims monthly
-- Developed integrations with 15+ third-party insurance APIs, streamlining claim submissions
-- Designed database models optimizing query performance for complex billing workflows
-- Wrote comprehensive test suites achieving 85% code coverage
+- Developed GraphQL APIs on Flask for the insurance claims and billing workflows
+- Wrote and optimized MySQL queries and designed database models for billing data
+- Covered my features with unit and integration tests (pytest)
+- Deployed services to Kubernetes in Docker
 
-**Technologies:** Python 3.8+, Flask, GraphQL, MySQL, Kubernetes, Docker
+**Technologies:** Python, Flask, GraphQL, MySQL, pytest, Docker, Kubernetes
 
 ### Python Developer | ParticleOne
 **September 2020 - August 2021** | Remote
 
-ParticleOne provides machine learning-powered financial market data analysis.
+ParticleOne (renamed Causify later) provides machine-learning analytics on financial market data.
 
-- Developed Python REST API client library used by 20+ institutional clients
-- Built ETL loaders and data validation pipelines processing 100GB+ daily financial data
-- Managed Airflow DAGs orchestrating 30+ scheduled data processing jobs
-- Collaborated with data science team to refactor ML model training pipelines
-- Administered MongoDB databases and Docker containerized services
+- Wrote the Python client library for the company's REST API: it started as my one-week hiring assignment, and I kept extending it after joining
+- Built ETL loaders and data validation for exchange data: currency rates and crypto prices
+- Wrote Airflow DAGs to schedule the loading and processing jobs
+- Refactored the data science team's model training pipelines
+- Worked with MongoDB and Docker-based services
 
-**Technologies:** Python 3.8+, Django, Pandas, Airflow, MongoDB, Docker
+**Technologies:** Python, pandas, Airflow, MongoDB, Docker, REST
 
-### Python Backend Developer | AutoCruitment
-**December 2018 - March 2019** | Remote
+### Freelance Python Developer | Upwork
+**2017 - 2020** | Remote, short contracts alongside ERP consulting
 
-AutoCruitment matches patients with clinical trials through an automated platform.
+- AutoCruitment: REST API for matching patients with clinical trials (Django, OpenAPI, PostgreSQL, MongoDB)
+- Plantix (PEAT GmbH, Berlin): Flask API for a crop-disease diagnosis mobile app, serving ML model predictions
+- Orbeliani: Django backend, initiative workflows and sponsor payments for a crowdfunding platform
+- JELT: rebuilt a scraper-backed web application, backend and frontend (Flask, MongoDB)
 
-- Developed OpenAPI-compliant REST endpoints for patient-trial matching algorithms
-- Implemented database models handling 10000+ patient profiles across PostgreSQL and MongoDB
-- Wrote unit and integration tests ensuring reliable API functionality
+### Earlier career: Enterprise ERP Consultant (Oracle E-Business Suite)
+**15 years** | IBM Global Business Services, BDO Unicon and other consultancies
 
-**Technologies:** Python, Django, OpenAPI, PostgreSQL, MongoDB
-
-### Python Backend Developer | PEAT Technology (Plantix)
-**June 2018 - October 2018** | Remote
-
-Plantix is a mobile crop advisory app diagnosing plant diseases for farmers worldwide.
-
-- Built Flask backend APIs supporting 500000+ mobile app users globally
-- Developed RESTful endpoints for plant disease diagnosis and treatment recommendations
-- Integrated machine learning model predictions into production API responses
-
-**Technologies:** Python, Flask, OpenAPI, PostgreSQL, MongoDB
-
-### Python Full-Stack Developer | Orbeliani
-**February 2018 - July 2018** | Remote
-
-Orbeliani is a Georgian social initiative crowdfunding platform.
-
-- Developed Django backend features and REST APIs for initiative submission workflows
-- Implemented payment integration for sponsor contributions
-- Managed DevOps tasks including deployment and server maintenance
-- Delivered 20+ bug fixes and feature enhancements
-
-**Technologies:** Python 3.5, Django 1.11, PostgreSQL, HTML5, CSS3, jQuery
-
-### Python Developer | Earlier Projects
-**2017 - 2018**
-
-- Developed full-stack web applications using Django, Flask, and various databases
-- Built web scrapers and data collection pipelines
-- Created voting platforms and community engagement tools
+- Implemented Oracle EBS modules (Enterprise Asset Management, Purchasing, Sourcing, Order Management, Inventory) and Oracle Utilities CC&B for a large mining company (Kazakhstan), a national postal operator and energy retailers
+- Gathered requirements and wrote functional and technical specifications (Oracle AIM / OUM)
+- Wrote PL/SQL procedures, reports and ETL scripts to migrate and clean data at go-live
+- Trained key users and end users
 
 ---
 
-## Open Source & Projects
+## Projects & Open Source
 
-**Test Assignments & Code Samples:**
+**Personal projects:**
 
-- [FastAPI Microservices with Celery](https://github.com/dremdem/fastapi_celery_xml) - XML processing microservice architecture
-- [Kafka Message Broker for Site Monitoring](https://github.com/dremdem/site_checker) - Distributed website health checker
-- [Serverless Kanban Board Backend](https://github.com/dremdem/kanban-board-backend) - AWS Lambda-based API
-- [REST API Example](https://github.com/dremdem/autods_test_asg) - Flask, SQLAlchemy, Marshmallow, Alembic
+- [django-oebs-eam](https://github.com/dremdem/django-oebs-eam) - Django tool that reads Oracle EBS Enterprise Asset Management tables and visualizes how maintenance models are built, which Oracle's own screens show poorly; used in my consulting work and shared with colleagues
+- [Stupid Chat Bot](https://stupidbot.dremdem.ru) | [GitHub](https://github.com/dremdem/stupid_chat_bot) - AI-powered Telegram chatbot with a web interface
+- [CV Profile](https://dremdem.ru) | [GitHub](https://github.com/dremdem/cv_profile) - personal site deployed by a CI/CD pipeline (GitHub Actions, Docker, VPS)
 
-**Personal Projects:**
+**Open source:**
 
-- [Stupid Chat Bot](https://stupidbot.dremdem.ru) | [GitHub](https://github.com/dremdem/stupid_chat_bot) - AI-powered Telegram chatbot with web interface
-- [CV Profile](https://dremdem.ru) | [GitHub](https://github.com/dremdem/cv_profile) - Personal portfolio site with automated CI/CD deployment pipeline (GitHub Actions, Docker, VPS)
+- [pytest-monitor-backend](https://github.com/dremdem/pytest-monitor-backend) - Flask and MongoDB backend for pytest-monitor
+- [tldr-pages](https://github.com/tldr-pages/tldr) - Russian translations, merged upstream
 
-**Open Source Contributions:**
+**Take-home assignments:**
 
-- [pytest-monitor-backend](https://github.com/dremdem/pytest-monitor-backend) - Flask/MongoDB backend for pytest monitoring
-- [tldr](https://github.com/dremdem/tldr) - Russian translation contributions
+- [FastAPI microservice with Celery](https://github.com/dremdem/fastapi_celery_xml) - asynchronous XML processing
+- [Site monitoring over Kafka](https://github.com/dremdem/site_checker) - website health checker with a message broker
+- [Serverless Kanban board backend](https://github.com/dremdem/kanban-board-backend) - AWS Lambda API
 
----
-
-## Education
-
-Self-taught programmer with continuous professional development through:
-- Online courses (Coursera, Udemy, specialized Python/ML training)
-- Technical documentation and official framework guides
-- Open source contribution and code review participation
-
----
-
-## Languages
-
-- Russian: Native
-- English: Professional working proficiency (B2+)
-
----
-
-## Additional Information
-
-- Available for full-time remote positions
-- Able to work in any time zone
+**Certification:** Oracle E-Business Suite Purchasing (earlier career)
