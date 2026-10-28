@@ -6,6 +6,8 @@ on:
       - master
     paths:
       - '*.md'
+      - 'templates/**'
+      - '.github/workflows/md-to-pdf.yml'
   workflow_dispatch:
     inputs:
       input_file:
@@ -15,7 +17,7 @@ on:
       output_file:
         description: 'Output PDF file'
         required: false
-        default: 'yakovenko_python_en_latest.pdf'
+        default: 'yakovenko_senior_python_developer.pdf'
 
 jobs:
   convert-and-publish:
@@ -23,7 +25,7 @@ jobs:
 
     env:
       INPUT_FILE: ${{ github.event.inputs.input_file || 'yakovenko_python_en.md' }}
-      OUTPUT_FILE: ${{ github.event.inputs.output_file || 'yakovenko_python_en_latest.pdf' }}
+      OUTPUT_FILE: ${{ github.event.inputs.output_file || 'yakovenko_senior_python_developer.pdf' }}
 
     steps:
       - name: Checkout repository
