@@ -115,6 +115,7 @@ ParticleOne (renamed Causify later) provides machine-learning analytics on finan
 
 **Personal projects:**
 
+- [Job Radar](https://github.com/dremdem/job-radar) - local-first job search assistant: collects vacancies from a dozen sources, scores them with explained rules and adds an LLM analysis (Claude) whose quotes are checked against the vacancy text; FastAPI, HTMX, SQLite, 740+ tests, CodeQL and OpenSSF Scorecard in CI
 - [django-oebs-eam](https://github.com/dremdem/django-oebs-eam) - Django tool that reads Oracle EBS Enterprise Asset Management tables and visualizes how maintenance models are built, which Oracle's own screens show poorly; used in my consulting work and shared with colleagues
 - [Stupid Chat Bot](https://stupidbot.dremdem.ru) | [GitHub](https://github.com/dremdem/stupid_chat_bot) - AI-powered Telegram chatbot with a web interface
 - [CV Profile](https://dremdem.ru) | [GitHub](https://github.com/dremdem/cv_profile) - personal site deployed by a CI/CD pipeline (GitHub Actions, Docker, VPS)
