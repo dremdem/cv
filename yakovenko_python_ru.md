@@ -115,6 +115,7 @@ ParticleOne (позже переименована в Causify) — аналит�
 
 **Личные проекты:**
 
+- [Job Radar](https://github.com/dremdem/job-radar) - локальный помощник для поиска работы: собирает вакансии из десятка источников, оценивает их по понятным правилам и добавляет разбор от LLM (Claude), цитаты в котором сверяются с текстом вакансии; FastAPI, HTMX, SQLite, 740+ тестов, CodeQL и OpenSSF Scorecard в CI
 - [django-oebs-eam](https://github.com/dremdem/django-oebs-eam) - инструмент на Django: читает таблицы Oracle EBS Enterprise Asset Management и наглядно показывает, из чего состоят модели ремонтов, что в самом Oracle видно плохо; использовал в консалтинге и показывал коллегам
 - [Stupid Chat Bot](https://stupidbot.dremdem.ru) | [GitHub](https://github.com/dremdem/stupid_chat_bot) - Telegram-бот на AI с веб-интерфейсом
 - [CV Profile](https://dremdem.ru) | [GitHub](https://github.com/dremdem/cv_profile) - личный сайт с CI/CD-деплоем (GitHub Actions, Docker, VPS)
